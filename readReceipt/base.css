@@ -1,0 +1,88 @@
+body{
+  background-color: #F2F2F2;
+}
+
+1 {
+  margin: 0 0 24px 0;
+}
+
+select {
+  width: 500px;
+  height: 100px;
+  font-size: 40px;
+}
+
+p {
+	color: black;
+	text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+
+hr {
+	border: 6px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	color: #FFE3E3;
+	background-color: #FF9D26;
+	border-radius: 6px;
+	#box-shadow: 0 0 0 4px #C9CAFF;
+	width: 80%;
+}
+
+h1 span {
+	background-color: #333;
+	border-radius: 1px;
+	box-shadow: 0 0 0 2px #C9CAFF;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ol {
+  #border: 10px;
+  #outline-style: solid;
+  #outline-color: #6074CC;
+  border-radius: 30px;
+  box-shadow: 0 0 0 4px #C9CAFF;
+}
+.hide-scrollbar {
+	overflow: scroll;
+}
+.hide-scrollbar::-webkit-scrollbar {
+	display: none;
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 108%; /* Full width */
+  left: -10px;
+  border-bottom: 1px solid #A6A6A6;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10% 10%;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}

@@ -1,0 +1,107 @@
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 108%; /* Full width */
+  left: -10px;
+  border-bottom: 1px solid #A6A6A6;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10% 10%;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+button {
+  display: block;
+}
+
+h1 {
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	color: white;
+}
+h1 span {
+	background-color: #333;
+	border-radius: 1px;
+	box-shadow: 0 0 0 2px #C9CAFF;
+}
+
+.recipeTitle {
+	color: #FFE3E3;
+	text-align: center;
+	#top: 50%;
+	#bottom: 50%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	
+	
+}
+.recipeTitle h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipeBox {
+	border: 1px solid #A6A6A6;
+	border-radius: 6px;
+	background-color: #FFFFFF;
+	width: 90%;
+	margin-bottom: 50px;
+	#transform: scale(1.2);
+}
+
+.recipeImg {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	display: block;
+	
+}
+
+.titleBox {
+	background-color: #FF9D26;
+	border-radius: 6px;
+	#box-shadow: 0 0 0 4px #C9CAFF;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+.titleBox:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,62 @@
+﻿<html>
+<head>
+	<title>レシート読み込み</title>
+	
+	<script src="background.js" charset="utf-8"></script>
+	
+	<link rel="stylesheet" type="text/css" href="button.css">
+	<link rel="stylesheet" type="text/css" href="base.css">
+</head>
+<body>
+
+<div id="container">
+
+	<div class="navbar">
+		<a id="toHome">ホーム画面に戻る</a>
+	</div>
+
+	<h1 style="margin-top: 30%">&ensp;ステップ１：　レシートの写真を撮る&ensp;</h1>
+
+	<div class="select"  style="display: none">
+		<label for="audioSource">マイク: </label><select id="audioSource"></select>
+	</div>
+
+	<div class="select center button" style="margin-bottom: 40px; width: 700px">
+		<label for="videoSource" style="font-size: 40px">カメラ: </label><select id="videoSource"></select>
+	</div>
+
+	<video id="player" class="center ol" style="margin-bottom: 40px" autoplay muted playsinline></video>
+
+	<div class="centered" style="margin-bottom: 40px">
+		<ul class="button-group">
+			<li><button id="capture" class="large button" style="">写真を撮る</button>
+			<li><button id="stopStream" class="large button" style="">カメラを切る</button>
+		</ul>
+		
+</div>
+
+
+<div id="photoSave" style="display: none">
+	<h1>&ensp;ステップ2：　レシートを読み取る&ensp;</h1>
+	
+	<canvas id="canvas" class="center ol" style="margin-bottom:40px; background-color: rgba(212, 255, 244, 1.0)"></canvas>
+
+	<button id="ocr" class="center button large" style="margin-bottom: 40px">読み取る</button>
+	
+	<br>
+</div>
+
+<div id="scanResult" style="display: none">
+	<h1>&ensp;文字データ&ensp;</h1>
+	<p>生データ</p>
+	<p id="ocrRes" class="ol hide-scrollbar" style="margin-left: auto; margin-right:auto; margin-bottom: 40px; font-size: 20px; height: 200px; width: 60%; background-color: rgba(255, 255, 255, 0.9);"></p>
+	
+	<hr>
+	
+	<p>(商品データ)</p>
+	<p id="resClean" class="ol center" style="width: 80%;font-size: 30px; background-color: rgba(255, 255, 255, 0.9);"></p>
+</div>
+
+</div>
+</body>
+</html>
