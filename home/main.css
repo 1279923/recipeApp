@@ -24,7 +24,8 @@
 
 .topIcon {
 	display: inline-block;
-	margin: 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
 	position: relative;
 	width: 10%;
 	height: auto;
