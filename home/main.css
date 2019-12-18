@@ -22,11 +22,12 @@
 }
 
 .topIcon {
-	display: inline;
+	display: inline-block;
 	margin: 0;
 	position: relative;
-	width: 20%;
-	height: 60%;
+	width: 15%;
+	height: auto;
+	float: left;
 }
 
 
