@@ -1,9 +1,23 @@
 console.log("fl bg");
 
 window.addEventListener("load", function(){
-	
+	btnFunc();
+})
 
-
+function btnFunc(){
+	var elmt = document.getElementsByClassName("qb");
+	for(let i=0; i<elmt.length; i++){
+		elmt[i].children[0].addEventListener("click", function(){
+			inp = this.parentElement.parentElement.children[0]
+			inp.value = parseInt(inp.value)+10;
+		})
+		
+		elmt[i].children[1].addEventListener("click", function(){
+			inp = this.parentElement.parentElement.children[0]
+			inp.value = parseInt(inp.value)-10;
+		})
+	}
+}
 
 document.addEventListener("click", function(e){
 	e = e.target;
@@ -18,13 +32,6 @@ document.addEventListener("click", function(e){
 				break;
 			}
 		}
-		
-		
-		
+			
 	}
-})
-
-
-
-
 })
