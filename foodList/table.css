@@ -103,12 +103,20 @@ td input{
 	width: 77% !important;
 }
 
-td div {
+td div:first-child {
 	display: inline-block;
 	float: left;
 	width: 40%;
 	height: 110%;
 }
+
+td div:last-child {
+	display: inline-block;
+	float: left;
+	width: 60%;
+	height: 110%;
+}
+
 
 td div button{
 	display: block;
@@ -128,9 +136,10 @@ td select{
 	#display: block;
 	#position: absolute;
 	#float: 30%;
-	width: 60%;
-	padding-top: 16%;
-	padding-bottom: 20%;
+	width: 100%;
+	
+	padding-top: 40%;
+	padding-bottom: 30%;
 	font-size: 30px;
 	vertical-align: middle;
 }
