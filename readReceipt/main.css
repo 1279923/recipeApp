@@ -27,7 +27,7 @@ h1 {
 	margin-left: 50px;
 	color: #FFE3E3;
 	background-color: #FF9D26;
-	border-radius: 6px;
+	border-radius: 4px;
 	#box-shadow: 0 0 0 4px #C9CAFF;
 	width: 80%;
 }
@@ -48,8 +48,8 @@ h1 span {
   #border: 10px;
   #outline-style: solid;
   #outline-color: #6074CC;
-  border-radius: 30px;
-  box-shadow: 0 0 0 4px #C9CAFF;
+  border-radius: 2px;
+  #box-shadow: 0 0 0 4px #C9CAFF;
 }
 .hide-scrollbar {
 	overflow: scroll;

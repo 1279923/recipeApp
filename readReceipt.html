@@ -13,10 +13,12 @@
 <div id="container">
 
 	<div class="navbar">
-		<a id="toHome">ホーム画面に戻る</a>
+		<img class="navIcon" src="base/img/receiptIcon.svg" id="readReceipt" style="margin-left: 4%; background: #ddd;">
+		<img class="navIcon" src="base/img/foodListIcon.svg" id="foodList">
+		<img class="navIcon" src="base/img/eatIcon.svg" id="searchRecipes">
 	</div>
 
-	<h1 style="margin-top: 30%">&ensp;ステップ１：　レシートの写真を撮る&ensp;</h1>
+	<h1 style="margin-top: 30%">&ensp;ステップ１：　レシート撮影&ensp;</h1>
 
 	<div class="select"  style="display: none">
 		<label for="audioSource">マイク: </label><select id="audioSource"></select>
@@ -38,7 +40,7 @@
 
 
 <div id="photoSave" style="display: none">
-	<h1>&ensp;ステップ2：　レシートを読み取る&ensp;</h1>
+	<h1>&ensp;ステップ2：　レシート読み取り&ensp;</h1>
 	
 	<canvas id="canvas" class="center ol" style="margin-bottom:40px; background-color: rgba(212, 255, 244, 1.0)"></canvas>
 
@@ -48,9 +50,9 @@
 </div>
 
 <div id="scanResult" style="display: none">
-	<h1>&ensp;文字データ&ensp;</h1>
+	<h1>&ensp;追加された商品&ensp;</h1>
 	<p>生データ</p>
-	<p id="ocrRes" class="ol hide-scrollbar" style="margin-left: auto; margin-right:auto; margin-bottom: 40px; font-size: 20px; height: 200px; width: 60%; background-color: rgba(255, 255, 255, 0.9);"></p>
+	<p id="ocrRes" class="ol hide-scrollbar" style="margin-left: auto; margin-right:auto; margin-bottom: 40px; font-size: 20px; height: 100px; width: 60%; background-color: rgba(255, 255, 255, 0.9);"></p>
 	
 	<hr>
 	

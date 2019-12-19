@@ -1,9 +1,5 @@
-window.onload = function(){
+window.addEventListener("load", function(){
 
-
-document.getElementById("toHome").addEventListener("click", function(){
-	window.location.href = "https://1279923.github.io/recipeApp/home";
-})
 
 'use strict';
 
@@ -154,4 +150,4 @@ document.getElementById("ocr").addEventListener("click", function(){
 
 
 
-}
+})
