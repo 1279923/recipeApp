@@ -1,8 +1,6 @@
 console.log("fl bg");
 
-window.addEventListener("load", function(){
-	btnFunc();
-})
+window.addEventListener("load", btnFunc());
 
 function btnFunc(){
 	var elmt = document.getElementsByClassName("qb");
