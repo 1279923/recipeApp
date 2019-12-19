@@ -1,6 +1,8 @@
 console.log("navBar")
 
-window.addEventListener("load", linkNavBar())
+window.addEventListener("load", function(){
+	linkNavBar();
+})
 
 function linkNavBar(){
 	var btn = document.getElementsByClassName("navIcon");
