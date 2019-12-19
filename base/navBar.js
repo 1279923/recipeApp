@@ -1,5 +1,7 @@
-window.onload = function(){
-	console.log("navBar")
+console.log("navBar")
+
+window.addEventListener("load", function(){
+
 	//*
 	var btn = document.getElementsByClassName("navIcon");
 	for(let i=0; i<btn.length; i++){
@@ -8,4 +10,4 @@ window.onload = function(){
 		})
 	}
 	//*/
-}
+})
