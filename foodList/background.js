@@ -1,13 +1,8 @@
 window.onload = function(){
 	
 	
-	
-	
-	
-	
-document.getElementById("toHome").addEventListener("click", function(){
-	window.location.href = "https://1279923.github.io/recipeApp/home";
-})
+console.log("fl bg");
+/*
 
 document.addEventListener("click", function(e){
 	e = e.target;
@@ -34,6 +29,7 @@ document.addEventListener("click", function(e){
 		
 	}
 })
+*/
 
 
 

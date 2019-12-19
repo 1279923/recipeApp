@@ -1,21 +1,24 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>食材リスト</title>
-	
-	<script src="viewSavedData/background.js" charset="utf-8"></script>
 
-	<link rel="stylesheet" type="text/css" href="viewSavedData/button.css">
-	<link rel="stylesheet" type="text/css" href="viewSavedData/table.css">
-	<link rel="stylesheet" type="text/css" href="viewSavedData/main.css">
-	
+	<link  rel="stylesheet" type="text/css" href="base/base.css">
+	<link  rel="stylesheet" type="text/css" href="base/button.css">
+	<link  rel="stylesheet" type="text/css" href="foodList/table.css">
+
+	<script src="base/navBar.js" charset="utf-8"></script>
+	<!--script src="foodList/background.js" charset="utf-8"></script-->
 </head>
 <body>
 
 <div class="navbar">
-	<a id="toHome">ホーム画面に戻る</a>
+	<img class="navIcon" src="receiptIcon.svg" id="readReceipt" style="margin-left: 4%;">
+	<img class="navIcon" src="foodListIcon.svg" id="foodList">
+	<img class="navIcon" src="eatIcon.svg" id="searchRecipes">
 </div>
 
-<div id="container" style="margin-top: 35%">
+<div class="main">
 	
 	<h1>&nbsp;食材リスト</h1>
 	
