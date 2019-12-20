@@ -2,10 +2,6 @@ body{
   background-color: #F2F2F2;
 }
 
-1 {
-  margin: 0 0 24px 0;
-}
-
 select {
   width: 500px;
   height: 100px;
@@ -22,14 +18,19 @@ hr {
 }
 
 h1 {
-	font-size: 40px;
+	#font-size: 40px;
 	margin-bottom: 20px;
 	margin-left: 50px;
-	color: #FFE3E3;
-	background-color: #FF9D26;
-	border-radius: 4px;
+	#color: #FFE3E3;
+	#background-color: #FF9D26;
+	#border-radius: 4px;
 	#box-shadow: 0 0 0 4px #C9CAFF;
 	width: 80%;
+	margin: 0 0 24px 0;
+	
+	color: #2378B8;
+	#text-align: center;
+	font-size: 30px;
 }
 
 h1 span {
