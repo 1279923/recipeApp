@@ -21,7 +21,7 @@ function btnFunc(){
 
 document.addEventListener("click", function(e){
 	e = e.target;
-	if(e.className == "button removeItem"){
+	if(e.className.split(" ").includes("removeItem")){
 		id = e.parentElement.parentElement.dataset.id
 		console.log("clicked id:" + id);
 		//console.log(document.querySelectorAll("tr")[id]);

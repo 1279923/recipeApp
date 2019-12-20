@@ -89,7 +89,7 @@ div.blueTable {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	background-color: #FF6E6E;
+	#background-color: #FF6E6E;
 }
 
 .setAmount{

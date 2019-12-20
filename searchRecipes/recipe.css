@@ -2,16 +2,28 @@
 	display: block; width: 70%; margin-left: 20px; margin-bottom: 20px;
 }
 
+.ingredientList {
+	display: none; width: 70%; margin-left: auto; margin-right: auto; margin-bottom: 20px
+}
+
 .servings {
 	border-bottom: 1px solid rgb(229, 229, 229); position: relative; color: rgb(60, 60, 60); font-family: -apple-system, Roboto, &quot;Helvetica Neue&quot;, &quot;Droid Sans&quot;, &quot;?????? ProN W3&quot;, &quot;Hiragino Kaku Gothic ProN&quot;, Meiryo, ????, Osaka, &quot;MS PGothic&quot;, arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;
 }
 
-.recipe_heading {
+.recipe_heading{
 	font-weight: bold; margin: 0px 0px 5px; padding: 0px; font-size: 30px; color: rgb(224, 215, 193);
 }
 
 .content {
 	float: left; width: 265px;
+}
+
+.servings_for {
+	font-size: 20px; font-weight: normal; color: rgb(76, 76, 76);
+}
+
+.ingListMain {
+	color: rgb(76, 76, 76); font-family: -apple-system, Roboto, &quot;Helvetica Neue&quot;, &quot;Droid Sans&quot;, &quot;ヒラギノ角ゴ ProN W3&quot;, &quot;Hiragino Kaku Gothic ProN&quot;, Meiryo, メイリオ, Osaka, &quot;MS PGothic&quot;, arial, sans-serif; font-size: 40px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial;
 }
 
 .recipeRowBox {
@@ -27,9 +39,13 @@
 }
 
 .ingredient_quantity {
-	display: inline; float: right; margin: 0px 0px 0px 10px; text-align: right;
+	display: inline; float: right; margin: 0px 0px 0px 10px; text-align: right; font-size: 20px;
 }
 
 .cookdict_ingredient_link {
 	color: rgb(64, 28, 0); text-decoration: none; border-bottom: 1px solid rgb(245, 241, 232);
+}
+
+.ingredient_category {
+	display: inline; float: left; font-weight: bold; padding-top: 12px; font-size: 27px;
 }
