@@ -1,17 +1,23 @@
 <html>
 <head>
-	<title>おすすめレシピ</title>
-	
-	<script src="searchRecipes/background.js" charset="utf-8"></script>
+	<title>レシピ検索</title>
 
-	<link rel="stylesheet" type="text/css" href="searchRecipes/button.css">
+	<!--link rel="stylesheet" type="text/css" href="searchRecipes/button.css"-->
+	
+	<link  rel="stylesheet" type="text/css" href="base/main.css">
+	<link  rel="stylesheet" type="text/css" href="base/button.css">
 	<link rel="stylesheet" type="text/css" href="searchRecipes/main.css">
+
+	<script type="text/javascript" src="base/navBar.js" charset="utf-8"></script>
+	<script type="text/javascript" src="searchRecipes/background.js" charset="utf-8"></script>
 	
 </head>
 <body>
 
-<div class="navbar" style="z-index: 999999">
-	<a id="toHome">ホーム画面に戻る</a>
+<div class="navbar" style="z-index: 99999999;">
+	<img class="navIcon" src="base/img/receiptIcon.svg" id="readReceipt" style="margin-left: 4%;">
+	<img class="navIcon" src="base/img/foodListIcon.svg" id="foodList">
+	<img class="navIcon" src="base/img/eatIcon.svg" id="searchRecipes" style="background-color: #ddd;">
 </div>
 
 <div id="container" style="margin-top: 35%; z-index: -1;">

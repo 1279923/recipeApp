@@ -1,13 +1,7 @@
-window.onload = function(){
+window.addEventListener("load", function(){
 	
 	
-	
-	
-	
-	
-document.getElementById("toHome").addEventListener("click", function(){
-	window.location.href = "https://1279923.github.io/recipeApp/home";
-})
+
 
 var img = document.getElementsByClassName("recipeImg");
 for(let i=0; i<img.length; i++){
@@ -19,4 +13,4 @@ for(let i=0; i<img.length; i++){
 
 
 
-}
+})
