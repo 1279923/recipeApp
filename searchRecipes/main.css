@@ -19,21 +19,15 @@ h1 span {
 }
 
 .recipeTitle {
-	color: #FFE3E3;
+	color: #2378B8;
 	text-align: center;
+	font-size: 30px;
 	#top: 50%;
 	#bottom: 50%;
-	height: 60px;
-	display: flex;
-	align-items: center;
+	#height: 60px;
+	#display: flex;
+	#align-items: center;
 	
-	
-}
-.recipeTitle {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	#font-size: 50px;
 	
 }
 
@@ -60,7 +54,7 @@ h1 span {
 }
 
 .titleBox {
-	background-color: #FF9D26;
+	#background-color: #FF9D26;
 	border-radius: 6px;
 	#box-shadow: 0 0 0 4px #C9CAFF;
 	width: 70%;
