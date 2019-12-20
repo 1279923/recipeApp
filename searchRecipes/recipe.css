@@ -11,7 +11,7 @@
 }
 
 .recipe_heading{
-	font-weight: bold; margin: 0px 0px 5px; padding: 0px; font-size: 40px; color: rgb(224, 215, 193);
+	font-weight: bold; margin: 0px 0px 5px; padding: 0px; font-size: 50px; color: rgb(224, 215, 193);
 }
 
 .content {
@@ -19,7 +19,7 @@
 }
 
 .servings_for {
-	font-size: 30px; font-weight: normal; color: rgb(76, 76, 76);
+	font-size: 40px; font-weight: normal; color: rgb(76, 76, 76);
 }
 
 .ingListMain {
@@ -35,11 +35,11 @@
 }
 
 .ingredient_name {
-	display: inline; float: left; font-size: 30px;
+	display: inline; float: left; font-size: 40px;
 }
 
 .ingredient_quantity {
-	display: inline; float: right; margin: 0px 0px 0px 10px; text-align: right; font-size: 30px;
+	display: inline; float: right; margin: 0px 0px 0px 10px; text-align: right; font-size: 40px;
 }
 
 .cookdict_ingredient_link {
@@ -47,5 +47,5 @@
 }
 
 .ingredient_category {
-	display: inline; float: left; font-weight: bold; padding-top: 12px; font-size: 36px;
+	display: inline; float: left; font-weight: bold; padding-top: 12px; font-size: 46px;
 }
