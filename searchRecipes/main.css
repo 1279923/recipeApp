@@ -18,6 +18,10 @@ h1 span {
 	box-shadow: 0 0 0 2px #C9CAFF;
 }
 
+.searchField {
+	margin-bottom: 40px;
+}
+
 .recipeTitle {
 	color: #2378B8;
 	text-align: center;

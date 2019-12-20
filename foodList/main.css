@@ -9,12 +9,16 @@ button {
 }
 
 h1 {
-	font-size: 70px;
-	margin-bottom: 20px;
-	margin-left: 50px;
-	color: #FFE3E3;
-	background-color: #FF9D26;
-	border-radius: 6px;
-	#box-shadow: 0 0 0 4px #C9CAFF;
-	width: 80%;
+	#font-size: 70px;
+	#margin-bottom: 20px;
+	#margin-left: 50px;
+	#color: #FFE3E3;
+	#background-color: #FF9D26;
+	#border-radius: 6px;
+	##box-shadow: 0 0 0 4px #C9CAFF;
+	#width: 80%;
+
+	color: #2378B8;
+	#text-align: center;
+	font-size: 30px;
 }
