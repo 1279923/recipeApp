@@ -103,7 +103,7 @@ td input{
 	display: inline-block;
 	background-color: rgba(0, 0, 0, 0);
 	#width: 77% !important;
-	width: 52%;
+	width: 47%;
 	float: left;
 	padding-top: 6%;
 	padding-bottom: 6%;
@@ -121,7 +121,7 @@ td div:nth-child(2) {
 td div:nth-child(3) {
 	display: inline-block;
 	float: left;
-	width: 25%;
+	width: 30%;
 	height: 110%;
 }
 
