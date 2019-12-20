@@ -22,6 +22,14 @@ h1 span {
 	margin-bottom: 50px;
 }
 
+.searchButton {
+	width: 28px;
+	height: 28px;
+	#padding: 5px;
+	display: inline;
+	border: 1px solid black;
+}
+
 .recipeTitle {
 	color: #2378B8;
 	text-align: center;
