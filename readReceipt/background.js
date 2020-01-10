@@ -106,8 +106,8 @@ document.getElementById("ocr").addEventListener("click", function(){
 			var resClean = "\n";
 			var resEdit = response.split("\n");
 			resEdit.forEach(line => {
-				if( !isNaN(line.slice(0,2)) && (line[2]==" ") ){
-					tempStr = line.slice(2);
+				if( !isNaN(line.slice(0,3)) && (line[3]==" ") ){
+					tempStr = line.slice(3);
 					for(let i=tempStr.length-1; i > -1; i--){
 						if(!isNaN(tempStr[i]) || tempStr == " "){
 							tempStr = tempStr.slice(0, -1);
